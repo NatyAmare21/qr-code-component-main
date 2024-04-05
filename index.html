@@ -30,33 +30,40 @@
     .home {
       background-color: white;
       border-radius: 2%;
-      width: 12%;
-      height: 50%;
+      width: 15%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 10px;}
+      padding: 10px;
+      }
     .ms {
       border-radius: 2%;
-      width: 100%;
-      height: 60%;
-      margin-bottom: 10px;}
+      width: 100%;}
     .attribution { font-size: 11px; text-align: center;}
     .attribution a { color: hsl(228, 45%, 44%); }
     h3{
       text-align: center;
       width: 100%;
-      height: 20%;
-      margin: 0;
-      padding: 0;
     }
     p{
       text-align: center;
       width: 100%;
-      height: 20%;
-      margin: 0;
-      padding: 0;
+      font-size: 14px;
     }
+    /* Mobile layout */
+@media only screen and (max-width: 375px) {
+  /* Styles for mobile devices */
+  .home{
+    width: 60%;
+  }
+}
+
+
+/* Desktop layout */
+@media only screen and (min-width: 1440px) {
+  /* Styles for desktop devices */
+}
+
   </style>
 </head>
 <body>
